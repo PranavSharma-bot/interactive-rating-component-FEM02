@@ -1,1 +1,104 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+}
+.mainContainer{
+    display:flex;
+    width: 310px;
+    height: 350px;
+    margin : 230px auto 100px auto;
+    flex-direction: column;
+    background-color: hsl(213, 19%, 18%);
+    padding: 20px;
+    border-radius: 8%;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+p{
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+.flex-container{
+    flex-direction: row;
+    justify-content: center;
+}
+
+button .ratings{
+    padding: 10px;
+    margin: 5px;
+}
+.link{
+    width: 95%;
+    height : 70px;
+    margin: 15px auto 10px auto;
+    padding: 14px;
+    background-color : hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 24px;
+    
+}
+#star{
+    border-radius : 100%;
+    background-color: hsl(217, 12%, 63%);
+}
+
+
+
+button:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.link:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+h2{
+    border-radius: 24px;
+    color:hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 8%);
+    text-align: center;
+    padding: 5px;
+    width : 60%;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+   text-align: center;
+}
+img{
+    width: 20px;
+    height: 50px;
+}
+
+#id_work_days input {
+    display: none;
+  }
+  
+  #id_work_days span {
+    display: inline-block;
+    margin: 2px;
+    padding: 18px;
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 100%;
+    color: white;
+  }
+  label{
+    
+    padding: 7px;
+    padding-bottom: 5px;
+  }
+  #id_work_days input[type="checkbox"]:hover + span{
+    background-color: hsl(217, 12%, 63%);
+  }
+  #id_work_days input[type="checkbox"]:checked + span {
+    background-color: hsl(25, 97%, 53%);
+
+  }
+  
